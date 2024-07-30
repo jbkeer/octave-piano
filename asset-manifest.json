@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/octave-piano/static/css/main.99fdb9a0.css",
+    "main.js": "/octave-piano/static/js/main.03097652.js",
+    "static/js/453.f380f480.chunk.js": "/octave-piano/static/js/453.f380f480.chunk.js",
+    "index.html": "/octave-piano/index.html",
+    "main.99fdb9a0.css.map": "/octave-piano/static/css/main.99fdb9a0.css.map",
+    "main.03097652.js.map": "/octave-piano/static/js/main.03097652.js.map",
+    "453.f380f480.chunk.js.map": "/octave-piano/static/js/453.f380f480.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99fdb9a0.css",
+    "static/js/main.03097652.js"
+  ]
+}
