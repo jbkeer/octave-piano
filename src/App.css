@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+
+.key {
+  background-color: white;
+  height: 350px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.key-text {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 290px;
+  pointer-events: none;
+}
+
+.key.flat {
+  position: relative;
+  background-color: rgb(37, 37, 37);
+  border-color: #000000;
+  margin-left: -17px;
+  margin-right: -17px;
+  height: 250px;
+  width: 30px;
+  z-index: 2;
+}
+
+
+.key.pressed, .key.flat.pressed {
+  background-color: #9e9e9e;
+}
+
+.piano {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.info {
+  color: white;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.i {
+  width: 512px;
+  margin-bottom: 10px;
+  padding-left: 1px;
+  font-weight: bolder;
+}
+
+button {
+  float: left;
+  border-radius: 100px;
+  border: none;
+}
